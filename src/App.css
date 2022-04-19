@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #000a41;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(113, 48, 197);
+  padding: 20px;
+  border-bottom: 1px solid rgb(255, 0, 242);
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__signUp {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__loginToUploadMessage {
+  position: sticky;
+  bottom: 0;
+  background-color: rgb(113, 48, 197);
+  color: white;
+  border: 1px solid rgb(255, 0, 242);
+  text-align: center;
+  padding: 10px;
+  width: 60%;
+  margin: auto;
+}
+
+.app__logoutConfirm {
+  padding: 10px;
+}
+
+.app__logoutDialogue {
+  padding: 20px;
+}
+
+.app__signInButton {
+  width: 60%;
+  margin: auto !important;
+}
